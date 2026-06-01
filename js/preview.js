@@ -1,6 +1,9 @@
+
+
+
 'use strict'
 
-import { uploadParaCloudinary } from './cloudinay.js'
+import { uploadParaCloudinary } from '../module/cloudinary.js'
 
 
 function preview ({target}) {

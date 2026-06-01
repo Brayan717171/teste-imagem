@@ -1,7 +1,7 @@
 'use strict'
 
-const CLOUD_NAME = 'daxpl0xw3'     
-const UPLOAD_PRESET = 'fotos_contato' 
+const CLOUD_NAME = 'dc9g5pzbn'     
+const UPLOAD_PRESET = 'imagem-foto' 
 
 export async function uploadParaCloudinary(file) {
     const formData = new FormData()
@@ -21,6 +21,5 @@ export async function uploadParaCloudinary(file) {
     }
     
     const data = await response.json()
-    
     return data.secure_url
 }
